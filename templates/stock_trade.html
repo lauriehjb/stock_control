@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+{% import "wtf.html" as wtf %}
+{% block title %}入库管理{% endblock %}
+{% block page_content %}
+<div class="container">
+    <p><img src="/static/images/cat_green.png" height="80" width="80">商品入库，注意：暂时没有确认，一定要核对好再入库</p><br>
+</div>
+<div class="container">
+    <form method="POST">
+    {{ wtf.quick_form(Form)}}
+    {{ Form.csrf_token }}
+    </form>
+</div>
+{% endblock %}

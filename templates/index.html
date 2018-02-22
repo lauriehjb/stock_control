@@ -1,0 +1,54 @@
+{% extends 'main.html' %}
+{% block content %}
+<div class="container">
+    <div class="table-responsive">
+        <h4 style="color:gray;background-color:black"><img src="/static/images/cat.png" height="80" width="80">库存状态：</h4>
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>名称</th>
+                <th>酒庄</th>
+                <th>系列</th>
+                <th>剩余库存</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in prodStock%}
+            <tr>
+                {%for t in i%}
+                <td>{{t}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    <div class="table-responsive">
+        <h4 style="color:gray;background-color:black"><img src="/static/images/cat.png" height="80" width="80">资金状态：</h4>
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>资金池名称</th>
+                <th>类型</th>
+                <th>入账</th>
+                <th>支出</th>
+                <th>余额</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in fundingPoolBalance%}
+            <tr>
+                {%for t in i%}
+                <td>{{t}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    <div class="panel-body">
+        <p class="img-responsive"><img class="img-responsive img-thumbnail" src="/static/images/index.jpg"
+                                       alt="Pulpit rock"></p>
+    </div>
+</div>
+{% endblock %}

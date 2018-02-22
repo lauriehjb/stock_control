@@ -1,0 +1,57 @@
+{% extends 'bootstrap/base.html' %}
+{% block title %}蘑菇进销存系统{% endblock %}
+{% block navbar %}
+<div class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">蘑菇进销存系统</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav nav-pills">
+                <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    进销功能<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav-stacked nav-pills" >
+                    <li><a href="#">商品入库</a></li>
+                    <li><a href="#">商品销售</a></li>
+                    <li><a href="#">花费LIST</a></li>
+                </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    盘点及账务<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav-stacked nav-pills">
+                   <li><a href="#">库存盘点</a></li>
+                    <li><a href="#">账务盘点</a></li>
+                    <li><a href="#">进销存一览</a></li>
+                </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    其它功能<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav-stacked nav-pills">
+                    <li><a href="#">产品类目维护</a></li>
+                    <li><a href="#">资金池维护</a></li>
+                    <li><a href="#">密码修改</a></li>
+                </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">退出登录</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

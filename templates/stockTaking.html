@@ -1,0 +1,58 @@
+{% extends 'main.html' %}
+{% block title %}库存盘点{% endblock %}
+{% block content %}
+<div class="container">
+    <p>库存盘点</p><br>
+</div>
+<div class="container">
+    <div class="table-responsive">
+        <h4 style="color:gray;background-color:black"><img src="/static/images/cat_mini.png" height="40" width="40">库存状态总览：</h4>
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>名称</th>
+                <th>酒庄</th>
+                <th>系列</th>
+                <th>剩余库存</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in prodStock%}
+            <tr>
+                {%for t in i%}
+                <td>{{t}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    <div class="table-responsive">
+        <h4 style="color:gray;background-color:black"><img src="/static/images/cat_mini.png" height="40" width="40">库存变更明细：</h4>
+        <table class="table table-striped table-bordered table-condensed">
+            <thead>
+            <tr>
+                <th>交易时间</th>
+                <th>交易类型</th>
+                <th>交易人</th>
+                <th>产品</th>
+                <th>数量</th>
+                <th>单价</th>
+                <th>本次交易资金变化</th>
+                <th>备注</th>
+                <th>推介人信息</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in stockChangeDetail%}
+            <tr>
+                {%for t in i%}
+                <td>{{t}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

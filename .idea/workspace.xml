@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="fc4bd64a-8881-4589-afe2-8fec846caebf" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/stock_control$main.coverage" NAME="main Coverage Results" MODIFIED="1519283898985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+                <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6400">
+              <caret line="260" column="10" lean-forward="false" selection-start-line="260" selection-start-column="10" selection-end-line="260" selection-end-column="10" />
+              <folding>
+                <marker date="1519284286769" expanded="true" signature="307:343" ph="SELECT A.LOG... sys_users" />
+                <marker date="1519284286769" expanded="true" signature="550:606" ph="SELECT A.PAS... sys_users" />
+                <marker date="1519284286769" expanded="true" signature="780:902" ph="select a.pro... prod" />
+                <marker date="1519284286769" expanded="true" signature="1151:1254" ph="select a.poo... funding_pool" />
+                <marker date="1519284286769" expanded="true" signature="1151:1402" ph="select a.poo... funding_pool" />
+                <marker date="1519284286769" expanded="true" signature="1280:1402" ph="select '合计' funding_pool" />
+                <marker date="1519284286769" expanded="true" signature="1708:1811" ph="select a.pro... prod" />
+                <marker date="1519284286769" expanded="true" signature="2127:2300" ph="select a.pro... prod" />
+                <marker date="1519284286769" expanded="true" signature="2641:2686" ph="select a.num... stock" />
+                <marker date="1519284286769" expanded="true" signature="2973:3094" ph="select a.fun... funding_pool" />
+                <marker date="1519284286769" expanded="true" signature="3497:3644" ph="insert into stock_trade... " />
+                <marker date="1519284286769" expanded="true" signature="3836:3886" ph="select count... stock" />
+                <marker date="1519284286769" expanded="true" signature="4005:4106" ph="insert into stock... " />
+                <marker date="1519284286769" expanded="true" signature="4250:4303" ph="update stock... " />
+                <marker date="1519284286769" expanded="true" signature="4447:4598" ph="insert into stock_change_log... " />
+                <marker date="1519284286769" expanded="true" signature="4721:4783" ph="update funding_pool... " />
+                <marker date="1519284286769" expanded="true" signature="4939:5010" ph="update funding_pool... " />
+                <marker date="1519284286769" expanded="true" signature="5126:5306" ph="insert into funding_change_log... " />
+                <marker date="1519284286769" expanded="true" signature="5641:5808" ph="insert into sale_trade... " />
+                <marker date="1519284286769" expanded="true" signature="5988:6041" ph="update stock... " />
+                <marker date="1519284286769" expanded="true" signature="6126:6277" ph="insert into stock_change_log... " />
+                <marker date="1519284286769" expanded="true" signature="6411:6473" ph="update funding_pool... " />
+                <marker date="1519284286769" expanded="true" signature="6629:6700" ph="update funding_pool... " />
+                <marker date="1519284286769" expanded="true" signature="6816:6996" ph="insert into funding_change_log... " />
+                <marker date="1519284286769" expanded="true" signature="7290:7411" ph="insert into expense_trade... " />
+                <marker date="1519284286769" expanded="true" signature="7544:7607" ph="update funding_pool... " />
+                <marker date="1519284286769" expanded="true" signature="7717:7789" ph="update funding_pool... " />
+                <marker date="1519284286769" expanded="true" signature="7883:8067" ph="insert into funding_change_log... " />
+                <marker date="1519284286769" expanded="true" signature="8260:8959" ph="select t.* f... trade_time" />
+                <marker date="1519284286769" expanded="true" signature="8277:8592" ph="select a.tra... stock_trade" />
+                <marker date="1519284286769" expanded="true" signature="8633:8914" ph="select a.tra... sale_trade" />
+                <marker date="1519284286769" expanded="true" signature="9265:9550" ph="select t.* f... trade_time" />
+                <marker date="1519284286769" expanded="true" signature="9829:9963" ph="select a.pro... prod" />
+                <marker date="1519284286769" expanded="true" signature="10245:10394" ph="insert into prod_his... " />
+                <marker date="1519284286769" expanded="true" signature="10345:10394" ph="select a.*,s... prod" />
+                <marker date="1519284286769" expanded="true" signature="10420:10451" ph="delete from prod... " />
+                <marker date="1519284286769" expanded="true" signature="10671:10786" ph="insert into prod... " />
+                <marker date="1519284286769" expanded="true" signature="10970:11036" ph="update sys_users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>　</find>
+      <find>bootstrap</find>
+      <find>navbar-inverse</find>
+      <find>background-color</find>
+      <find>navbar-collapse</find>
+      <find>navbar</find>
+      <find>image</find>
+      <find>img-</find>
+      <find>now()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>sysdate()</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_bootstrap/__init__.py" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/templates/addProd.html" />
+        <option value="$PROJECT_DIR$/templates/changPassword.html" />
+        <option value="$PROJECT_DIR$/form.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/stock_trade.html" />
+        <option value="$PROJECT_DIR$/templates/sale_trade.html" />
+        <option value="$PROJECT_DIR$/templates/expenTrade.html" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/stockTaking.html" />
+        <option value="$PROJECT_DIR$/templates/fundTaking.html" />
+        <option value="$PROJECT_DIR$/templates/prod_manage.html" />
+        <option value="$PROJECT_DIR$/toDB.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="169" />
+    <option name="y" value="69" />
+    <option name="width" value="1400" />
+    <option name="height" value="891" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stock_control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_control" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_control" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock_control" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock_control" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="stock_control" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="stock_control" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MiCloud\名庄荟\蘑菇进销存系统\stock_control\static\images" />
+      <recent name="D:\MiCloud\名庄荟\蘑菇进销存系统\stock_control\templates" />
+      <recent name="D:\MySVN\蘑菇进销存系统\stock_control\templates" />
+      <recent name="D:\MySVN\蘑菇进销存系统\stock_control\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MySVN\蘑菇进销存系统\stock_control\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stock_control" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="toDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="stock_control" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/toDB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.toDB" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.toDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration>C:\Users\hjb\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc4bd64a-8881-4589-afe2-8fec846caebf" name="Default" comment="" />
+      <created>1517886750169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517886750169</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27754238" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22881356" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/prod_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <marker date="1519284286769" expanded="true" signature="307:343" ph="SELECT A.LOG... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="550:606" ph="SELECT A.PAS... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="780:902" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="1151:1254" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1151:1402" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1280:1402" ph="select '合计' funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1708:1811" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2127:2300" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2641:2686" ph="select a.num... stock" />
+            <marker date="1519284286769" expanded="true" signature="2973:3094" ph="select a.fun... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="3497:3644" ph="insert into stock_trade... " />
+            <marker date="1519284286769" expanded="true" signature="3836:3886" ph="select count... stock" />
+            <marker date="1519284286769" expanded="true" signature="4005:4106" ph="insert into stock... " />
+            <marker date="1519284286769" expanded="true" signature="4250:4303" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="4447:4598" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="4721:4783" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="4939:5010" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="5126:5306" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="5641:5808" ph="insert into sale_trade... " />
+            <marker date="1519284286769" expanded="true" signature="5988:6041" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="6126:6277" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="6411:6473" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6629:6700" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6816:6996" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="7290:7411" ph="insert into expense_trade... " />
+            <marker date="1519284286769" expanded="true" signature="7544:7607" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7717:7789" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7883:8067" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="8260:8959" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="8277:8592" ph="select a.tra... stock_trade" />
+            <marker date="1519284286769" expanded="true" signature="8633:8914" ph="select a.tra... sale_trade" />
+            <marker date="1519284286769" expanded="true" signature="9265:9550" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="9829:9963" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="10245:10394" ph="insert into prod_his... " />
+            <marker date="1519284286769" expanded="true" signature="10345:10394" ph="select a.*,s... prod" />
+            <marker date="1519284286769" expanded="true" signature="10420:10451" ph="delete from prod... " />
+            <marker date="1519284286769" expanded="true" signature="10671:10786" ph="insert into prod... " />
+            <marker date="1519284286769" expanded="true" signature="10970:11036" ph="update sys_users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/prod_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3050">
+          <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_trade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <marker date="1519284286769" expanded="true" signature="307:343" ph="SELECT A.LOG... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="550:606" ph="SELECT A.PAS... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="780:902" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="1151:1254" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1151:1402" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1280:1402" ph="select '合计' funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1708:1811" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2127:2300" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2641:2686" ph="select a.num... stock" />
+            <marker date="1519284286769" expanded="true" signature="2973:3094" ph="select a.fun... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="3497:3644" ph="insert into stock_trade... " />
+            <marker date="1519284286769" expanded="true" signature="3836:3886" ph="select count... stock" />
+            <marker date="1519284286769" expanded="true" signature="4005:4106" ph="insert into stock... " />
+            <marker date="1519284286769" expanded="true" signature="4250:4303" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="4447:4598" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="4721:4783" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="4939:5010" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="5126:5306" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="5641:5808" ph="insert into sale_trade... " />
+            <marker date="1519284286769" expanded="true" signature="5988:6041" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="6126:6277" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="6411:6473" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6629:6700" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6816:6996" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="7290:7411" ph="insert into expense_trade... " />
+            <marker date="1519284286769" expanded="true" signature="7544:7607" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7717:7789" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7883:8067" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="8260:8959" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="8277:8592" ph="select a.tra... stock_trade" />
+            <marker date="1519284286769" expanded="true" signature="8633:8914" ph="select a.tra... sale_trade" />
+            <marker date="1519284286769" expanded="true" signature="9265:9550" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="9829:9963" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="10245:10394" ph="insert into prod_his... " />
+            <marker date="1519284286769" expanded="true" signature="10345:10394" ph="select a.*,s... prod" />
+            <marker date="1519284286769" expanded="true" signature="10420:10451" ph="delete from prod... " />
+            <marker date="1519284286769" expanded="true" signature="10671:10786" ph="insert into prod... " />
+            <marker date="1519284286769" expanded="true" signature="10970:11036" ph="update sys_users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <marker date="1519284286769" expanded="true" signature="307:343" ph="SELECT A.LOG... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="550:606" ph="SELECT A.PAS... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="780:902" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="1151:1254" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1151:1402" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1280:1402" ph="select '合计' funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1708:1811" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2127:2300" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2641:2686" ph="select a.num... stock" />
+            <marker date="1519284286769" expanded="true" signature="2973:3094" ph="select a.fun... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="3497:3644" ph="insert into stock_trade... " />
+            <marker date="1519284286769" expanded="true" signature="3836:3886" ph="select count... stock" />
+            <marker date="1519284286769" expanded="true" signature="4005:4106" ph="insert into stock... " />
+            <marker date="1519284286769" expanded="true" signature="4250:4303" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="4447:4598" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="4721:4783" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="4939:5010" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="5126:5306" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="5641:5808" ph="insert into sale_trade... " />
+            <marker date="1519284286769" expanded="true" signature="5988:6041" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="6126:6277" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="6411:6473" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6629:6700" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6816:6996" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="7290:7411" ph="insert into expense_trade... " />
+            <marker date="1519284286769" expanded="true" signature="7544:7607" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7717:7789" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7883:8067" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="8260:8959" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="8277:8592" ph="select a.tra... stock_trade" />
+            <marker date="1519284286769" expanded="true" signature="8633:8914" ph="select a.tra... sale_trade" />
+            <marker date="1519284286769" expanded="true" signature="9265:9550" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="9829:9963" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="10245:10394" ph="insert into prod_his... " />
+            <marker date="1519284286769" expanded="true" signature="10345:10394" ph="select a.*,s... prod" />
+            <marker date="1519284286769" expanded="true" signature="10420:10451" ph="delete from prod... " />
+            <marker date="1519284286769" expanded="true" signature="10671:10786" ph="insert into prod... " />
+            <marker date="1519284286769" expanded="true" signature="10970:11036" ph="update sys_users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_bootstrap/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="173" column="75" lean-forward="false" selection-start-line="173" selection-start-column="75" selection-end-line="173" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_bootstrap/templates/bootstrap/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_bak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6150">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5212" column="18" lean-forward="false" selection-start-line="5212" selection-start-column="14" selection-end-line="5212" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/wtf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/flask_bootstrap/templates/bootstrap/wtf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4976">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/changPassword.html" />
+    <entry file="file://$PROJECT_DIR$/templates/changePassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addProd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stock_trade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/expenTrade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stockTaking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/fundTaking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sale_trade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/prod_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6400">
+          <caret line="260" column="10" lean-forward="false" selection-start-line="260" selection-start-column="10" selection-end-line="260" selection-end-column="10" />
+          <folding>
+            <marker date="1519284286769" expanded="true" signature="307:343" ph="SELECT A.LOG... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="550:606" ph="SELECT A.PAS... sys_users" />
+            <marker date="1519284286769" expanded="true" signature="780:902" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="1151:1254" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1151:1402" ph="select a.poo... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1280:1402" ph="select '合计' funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="1708:1811" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2127:2300" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="2641:2686" ph="select a.num... stock" />
+            <marker date="1519284286769" expanded="true" signature="2973:3094" ph="select a.fun... funding_pool" />
+            <marker date="1519284286769" expanded="true" signature="3497:3644" ph="insert into stock_trade... " />
+            <marker date="1519284286769" expanded="true" signature="3836:3886" ph="select count... stock" />
+            <marker date="1519284286769" expanded="true" signature="4005:4106" ph="insert into stock... " />
+            <marker date="1519284286769" expanded="true" signature="4250:4303" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="4447:4598" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="4721:4783" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="4939:5010" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="5126:5306" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="5641:5808" ph="insert into sale_trade... " />
+            <marker date="1519284286769" expanded="true" signature="5988:6041" ph="update stock... " />
+            <marker date="1519284286769" expanded="true" signature="6126:6277" ph="insert into stock_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="6411:6473" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6629:6700" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="6816:6996" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="7290:7411" ph="insert into expense_trade... " />
+            <marker date="1519284286769" expanded="true" signature="7544:7607" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7717:7789" ph="update funding_pool... " />
+            <marker date="1519284286769" expanded="true" signature="7883:8067" ph="insert into funding_change_log... " />
+            <marker date="1519284286769" expanded="true" signature="8260:8959" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="8277:8592" ph="select a.tra... stock_trade" />
+            <marker date="1519284286769" expanded="true" signature="8633:8914" ph="select a.tra... sale_trade" />
+            <marker date="1519284286769" expanded="true" signature="9265:9550" ph="select t.* f... trade_time" />
+            <marker date="1519284286769" expanded="true" signature="9829:9963" ph="select a.pro... prod" />
+            <marker date="1519284286769" expanded="true" signature="10245:10394" ph="insert into prod_his... " />
+            <marker date="1519284286769" expanded="true" signature="10345:10394" ph="select a.*,s... prod" />
+            <marker date="1519284286769" expanded="true" signature="10420:10451" ph="delete from prod... " />
+            <marker date="1519284286769" expanded="true" signature="10671:10786" ph="insert into prod... " />
+            <marker date="1519284286769" expanded="true" signature="10970:11036" ph="update sys_users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+            <marker date="1519283915631" expanded="true" signature="2771:2776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

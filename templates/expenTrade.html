@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+{% import "wtf.html" as wtf %}
+{% block title %}花费LIST{% endblock %}
+{% block page_content %}
+<div class="container">
+    <p><img src="/static/images/cat_green.png" height="80" width="80">花费LIST：用于记录一些需要计入成本的乱七八糟的花费比如交通成本、送货成本等</p><br>
+</div>
+<div class="container">
+    <form method="POST">
+    {{ wtf.quick_form(Form)}}
+    {{ Form.csrf_token }}
+    </form>
+</div>
+{% endblock %}

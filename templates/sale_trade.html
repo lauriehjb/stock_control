@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+{% import "wtf.html" as wtf %}
+{% block title %}销售管理{% endblock %}
+{% block page_content %}
+<div class="container">
+    <p><img src="/static/images/cat_green.png" height="80" width="80">商品销售，填写一些推介人信息方便后续维护统计</p><br>
+</div>
+<div class="container">
+    <form method="POST">
+    {{ wtf.quick_form(Form)}}
+    {{ Form.csrf_token }}
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'main.html' %}
+{% block title %}库存盘点{% endblock %}
+{% block content %}
+<div class="container">
+    <p>账务盘点</p><br>
+</div>
+<div class="container">
+    <div class="table-responsive">
+        <h4 style="color:gray;background-color:black"><img src="/static/images/cat_mini.png" height="40" width="40">资金状态总览：</h4>
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>资金池名称</th>
+                <th>类型</th>
+                <th>入账</th>
+                <th>支出</th>
+                <th>余额</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in fundingPoolBalance%}
+            <tr>
+                {%for t in i%}
+                <td>{{t}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </div>
+    <div class="table-responsive">
+        <h4 style="color:gray;background-color:black"><img src="/static/images/cat_mini.png" height="40" width="40">资金变更明细：</h4>
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+                <th>变更时间</th>
+                <th>变更类型</th>
+                <th>变更人</th>
+                <th>资金池</th>
+                <th>资金变化</th>
+                <th>备注</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in fundChangeDetail%}
+            <tr>
+                {%for t in i%}
+                <td>{{t}}</td>
+                {%endfor%}
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

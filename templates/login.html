@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+{% import "wtf.html" as wtf %}
+{% block title %}欢迎登录小蘑菇进销存管理系统{% endblock %}
+{% block page_content %}
+<div class="container">
+    <p><img src="/static/images/cat.png" height="40" width="40">
+        先登录再操作哦
+        <img src="/static/images/cat_green.png" height="40" width="40"></p>
+</div>
+<div class="container">
+    <form method="POST">
+    {{ wtf.quick_form(Form)}}
+    {{ Form.csrf_token }}
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'main.html' %}
+{% import "wtf.html" as wtf %}
+{% block title %}产品类目维护{% endblock %}
+{% block page_content %}
+<div class="container">
+    <p>产品类目维护</p><br>
+</div>
+<div class="table-responsive">
+    <form>
+        <table class="table table-hover table-bordered">
+            <thead>
+            <tr>
+                <th>
+                    <a class="btn btn-default btn-block btn-lg btn-primary" href="/addProd" role="button">增加</a>
+                </th>
+                <th>
+                    <input class="btn btn-default" id="submit" name="submit" type="submit" value="删除" FORMMETHOD="post">
+                </th>
+            </tr>
+            <tr>
+                <th>选择</th>
+                <th>产品名称</th>
+                <th>酒庄</th>
+                <th>系列</th>
+                <th>备注</th>
+                <th>库存余量</th>
+            </tr>
+            </thead>
+            <tbody>
+            {%for i in prodManageList%}
+            <tr>
+                <td><input type="radio" name="blankRadio" id="blankRadio1" value="{{i[0]}}"></td>
+                <td>{{i[1]}}</td>
+                <td>{{i[2]}}</td>
+                <td>{{i[3]}}</td>
+                <td>{{i[4]}}</td>
+                <td>{{i[5]}}</td>
+            </tr>
+            {%endfor%}
+            </tbody>
+        </table>
+    </form>
+</div>
+
+{% endblock %}s

@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+{% import "wtf.html" as wtf %}
+{% block title %}产品类型增加{% endblock %}
+{% block page_content %}
+<div class="container">
+    <p>增加产品类型</p><br>
+    <p><a class="btn btn-default btn-block" href="/prod_manage" role="button">返回</a></p>
+</div>
+<div class="container">
+    <form method="POST">
+    {{ wtf.quick_form(Form)}}
+    {{ Form.csrf_token }}
+    </form>
+</div>
+{% endblock %}

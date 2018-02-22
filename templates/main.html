@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block title %}蘑菇进销存系统{% endblock %}
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <img src="/static/images/logo.png" height="40" width="40">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index">小蘑菇进销存</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/stock_trade">商品入库</a></li>
+                <li><a href="/sale_trade">商品销售</a></li>
+                <li><a href="/expenTrade">花费LIST</a></li>
+                <li><a href="/stockTaking">库存盘点</a></li>
+                <li><a href="/fundTaking">账务盘点</a></li>
+                <li><a href="/prod_manage">产品类目维护</a></li>
+                <li><a href="#"><s>资金池维护</s></a></li>
+                <li><a href="/changePassword">密码修改</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">{{current_user.get_id()}}</a></li>
+                <li><a href="{{ url_for('logout') }}">退出登录</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+    {% for message in get_flashed_messages() %}
+    <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{ message }}
+    </div>
+    {% endfor %}
+    <div class="page-header input-lg">
+        {% block page_content %}{% endblock %}
+    </div>
+</div>
+{% endblock %}
