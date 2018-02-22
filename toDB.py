@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import os
 
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
-engine = create_engine('mysql+pymysql://huojiabin:huojb123@47.93.61.35/hjb?charset=utf8', convert_unicode=True)
+engine = create_engine('mysql+pymysql://*@*?charset=utf8', convert_unicode=True)
 
 
 # 用户登录相关函数
